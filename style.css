@@ -1,0 +1,141 @@
+.wrapper {
+	background-image: url(img/orange.jpg);
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	gap: 20px;
+}
+body {
+	margin: 0;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: cursive;
+}
+.menu li {
+	/* display: inline-block; */
+}
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+.menu a:hover {
+	color:red;
+}
+
+.menu a.active {
+	color:yellow;
+}
+
+.header {
+	/* display: flex; */
+	/* align-items: center; */
+	/* gap: 150px; */
+}
+.main {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.title {
+	color: red;
+	font-family: Verdana;
+	font-size: 40px;
+	box-shadow: 0 0 10px black;
+}
+
+.subtitle {
+	color: red;
+	font-family: Verdana;
+	box-shadow: 0 0 10px black;
+}
+
+.main-img {
+	float: right;
+}
+
+.button {
+	width: 140px;
+	height: 60px;
+	font-family: Verdana;
+	font-size: 18px;
+	border-radius: 6px;
+	background-color: red;
+	border: 4px double-yellow;
+}
+
+.button a {
+	text-decoration: none;
+	color: yellow;
+}
+
+.button:hover {
+	border: 4px double white;
+	background-color: transparent;
+}
+
+
+/* Товари */
+
+
+.tovars {
+	text-align: center;
+	background-color: yellow;
+}
+
+.tovars ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.tovars-title {
+	color: tomato;
+}
+
+.tovars-subtitle {
+	color: orange;
+	font-style: italic;
+}
+
+.food {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	width: 1100px;
+}
+
+.price {
+	color: red;
+}
+
+/* Про нас */
+
+.mein2-img {
+	float: top;
+	margin-left: 300px;
+}
+
+.title1 {
+	color: red;
+	font-family: Verdana;
+	font-size: 40px;
+	box-shadow: 0 0 10px orange;
+}
+
+.subtitle1 {
+	color: red;
+	font-family: Verdana;
+	box-shadow: 0 0 10px orange;
+}
